@@ -1,0 +1,25 @@
+/* Common Style */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header section  */
+/* Navbar Section  */
+
+nav h1{
+    font-size: 45px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
