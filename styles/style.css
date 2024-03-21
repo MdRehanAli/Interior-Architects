@@ -15,6 +15,17 @@ body{
     align-items: center;
 }
 
+.second-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+}
+
 
 /* Header section  */
 header{
@@ -62,3 +73,26 @@ button{
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+
+/* Feature part 2 Section  */
+
+
+/* Some Facts Section  */
+.fact-title{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #424242;
+    margin: 0;
+}
+
+.fact-paragraph{
+    font-size: 20px;
+    margin: 0;
+}
+
+.fact-list{
+    padding: 60px 40px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
