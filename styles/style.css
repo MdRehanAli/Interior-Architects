@@ -62,7 +62,7 @@ nav a{
 /* Hero Section  */
 
 .cover-image{
-    width: 1250px;
+    max-width: 1250px;
     padding: 50px 0;
 }
 
@@ -116,3 +116,42 @@ footer p{
     font-size: 20px;
 }
 
+
+
+/* Responsive Style  */
+@media screen and (max-width: 600px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .cover-image{
+        max-width: 600px;
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image{
+        max-width: 600px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .cover-image{
+        max-width: 992px;
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image{
+        /* max-width: 992px; */
+    }
+}
