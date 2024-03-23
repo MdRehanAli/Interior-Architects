@@ -145,6 +145,9 @@ footer p{
     .image{
         max-width: 600px;
     }
+    .feature-content{
+        width: 100%;
+    }
 }
 
 
@@ -161,7 +164,7 @@ footer p{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .image{
-        /* max-width: 992px; */
+    .feature-content{
+        width: 100%;
     }
 }
