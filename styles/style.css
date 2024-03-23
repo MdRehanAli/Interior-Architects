@@ -35,6 +35,10 @@ p{
     margin-bottom: 130px;
 }
 
+.gap{
+    gap: 30px;
+}
+
 
 /* Header section  */
 header{
@@ -84,7 +88,13 @@ button{
 }
 
 /* Feature part 2 Section  */
+.feature-content{
+    width: 50%;
+}
 
+.image{
+    width: 100%;
+}
 
 /* Some Facts Section  */
 .fact-title{
